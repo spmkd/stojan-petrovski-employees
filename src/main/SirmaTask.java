@@ -54,7 +54,7 @@ public class SirmaTask
 		{
 			CollaboratingEmployees first = collaboratingEmployees.first();
 			System.out.printf(
-					"%n%nEmployees that have worked most time together are with empId[%d] and empId[%d] with sum of [%d] working hours together",
+					"%n%nEmployees that have worked most time together are with empId[%d] and empId[%d] with sum of [%d] working days together",
 					first.getFirstEmpId(), first.getSecondEmpId(), first.getDaysWorkedTogether());
 			;
 		} else
